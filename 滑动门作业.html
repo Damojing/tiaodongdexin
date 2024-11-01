@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .yijihezi{
+        width: 700px;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .yijiliebiao{padding: 3px;}
+    .yijiliebiao>li{
+        list-style:none ;
+        margin: 3px 0px;
+        width: 90px;
+        height: 40px;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        transition: width   0.2s    linear;
+    }
+    .yijiliebiao>li:hover{width: 95px;}
+    a{text-decoration: none;
+    color: aquamarine;
+font-size: 30px;}
+.erjihezi{position: absolute;
+top: 87px;
+right: 565px;
+width: 240px;
+height: 200px;
+background-color: yellowgreen;
+border-radius: 5px;
+display: none;}
+.erjiliebiao{padding: 0px;}
+.erjiliebiao    li{display: flex;
+justify-content: center;
+list-style: none;
+margin: 13px;}
+.yijiliebiao>li:hover>.erjihezi{display: block;}    
+    </style>
+</head>
+<body>
+<div   class="yijihezi">
+    <ul class="yijiliebiao">
+        <li><a  href="#">粉</a>
+                <div    class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a  href="#">螺蛳粉</a></li>
+                        <li><a  href="#">炒河粉</a></li> 
+                        <li><a  href="#">肠粉</a></li>
+                        </ul>
+                        </div>
+                        </li>
+                        <li>
+                            <a  href="#">奶茶</a>
+                            <div    class="erjihezi">
+                                <ul class="erjiliebiao">
+                                    <li><a  href="#">薄荷奶绿</a></li>
+                                    <li><a  href="#">抹茶酸奶酪</a></li> 
+                                    <li><a  href="#">豆乳玉麒麟</a></li
+                            </li>
+                            </ul>
+                            </div>
+                            <li>
+                                <a  href="#">吧唧</a>
+                                <div    class="erjihezi">
+                                    <ul class="erjiliebiao">
+                                        <li><a  href="#">圆形吧唧</a></li>
+                                        <li><a  href="#">方形吧唧</a></li> 
+                                        <li><a  href="#">异形吧唧</a></li
+                                </li>
+                                </ul>
+</body>
+</html>
